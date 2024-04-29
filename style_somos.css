@@ -3,29 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 header{
-     display: flex;
+    display: flex;
     justify-content: space-around;
-    background-color: #817ba7;
- }
-
-body{
-    background-color: #c2aed3;
+    background-color: #aea0c5;
 }
- 
 
 #logo_pena{
     width: 100px;
     height: 100px;
 }
 
-#sobre{
-    text-decoration-color: #ffc727;
-    font-family: "Pacifico", cursive;
-    font-size: 30px;
+#nome{
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    font-size: 200%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;  
     align-items: center;
+    color: #f8e42c;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #inscreva{
@@ -36,18 +33,30 @@ body{
     flex-flow: column nowrap;
     justify-content: center;  
     align-items: center;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
 }
 
-#quem{
-    grid-area: nome;
+body{
+    background-color: #c9c2d0;
+} 
+
+#submenu{
+    text-decoration-color: rgb(108, 228, 168);
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    
+}
+
+#titulo{
     font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     font-size: 80px;
-    background-color: #c2aed3;
-}
-
-#corpo{
-    background-color: #c2aed3;
 }
 
 #texto{
@@ -55,7 +64,6 @@ body{
     font-size: 40px;
     margin: 30px;
     text-align: center;   
-    background-color: #c2aed3;
 }
 
 
@@ -73,6 +81,7 @@ footer{
     justify-content: center;  
     align-items: center;
     font-family: "Sans-serif", cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #CTS {

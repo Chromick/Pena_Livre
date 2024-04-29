@@ -41,52 +41,77 @@ body{
     background-color: #c9c2d0;
 }
 
-#submenu{
-    text-decoration-color: rgb(108, 228, 168);
-    font-family: "Pacifico", cursive;
-    font-size: 48px;
+.formulario{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    justify-content: center;  
+    align-items: center;
+    padding: 12px;
+    background-color: #817ba7;
+    border-radius: 20px;
+    border: 3px solid #f8e42c;
+    max-width: 400px;
+    margin: auto;
+}
+
+fieldset{
+    border-radius: 10px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+legend{
+    border: 1px solid #f8e42c;
+    padding: 10px;
     text-align: center;
-    justify-content: space-around;
-    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;   
+    border-radius: 5px;
+    background-color: #f8e42c;
+}
+.inputs{
+    position: relative;
 }
 
-.texto{
-    font-family: "Sacramento", cursive;
-    font-size: 42px;
-    margin: 50px;
-    text-align: justify;
-    flex: 1;    
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 90%;
+}
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
 }
 
-
-#menina{
-    height: 380px
+.inputuser:focus ~ .labelinput,
+.inputuser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: white;
 }
 
-#box1{
-    display: flex;
-    justify-items: center;
-    gap: 20px;
-    align-items: center;
-    height: 380px;
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
 }
 
-#livros{
-    height: 380px
+#submit{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(to top,#aea0c5,#c9c2d0);
+    text-shadow: black 0.1em 0.1em 0.2em;
+
 }
-
-#box2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-    flex: 1;
-}
-
-
-
-
 
 
 footer{
@@ -110,4 +135,3 @@ footer{
     width: 50px;
     height: 50px;
 }
-

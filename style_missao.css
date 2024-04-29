@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #817ba7;
+}
+#missao{
+    text-decoration-color: rgb(108, 228, 168);
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+}
+
+#logo_pena{
+    width: 100px;
+    height: 100px;
+}
+#sobre{
+    text-decoration-color: #ffc727;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+}
+#inscreva{
+    color: #ffc727;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+}
+#quem{
+    grid-area: nome;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 80px;
+    background-color: #c2aed3;
+}
+body{
+    background-color: #c2aed3;
+}
+#corpo{
+    background-color: #c2aed3;
+}
+#texto{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;   
+    background-color: #c2aed3;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #af95c4;
+}
+#rodape{
+    color: #ffe927;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+    font-family: "Sans-serif", cursive;
+}
+#CTS {
+    width: 50px;
+    height: 50px;
+}

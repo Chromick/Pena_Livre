@@ -21,19 +21,46 @@ header{
     flex-flow: column nowrap;
     justify-content: center;  
     align-items: center;
-    color: #f8e42c;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    background: linear-gradient(to right,#f8e42c,#faa82f,#f85c2c,#f8bb2c,#fae638 );
+    background-size: 400% 100%;
+    animation: degrade 20s linear infinite alternate;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+@keyframes degrade {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
 }
 
 #inscreva{
-    color: #ffc727;
     font-family: "Pacifico", cursive;
     font-size: 30px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;  
     align-items: center;
-    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    cursor: pointer;
+    position: relative;
+}
+
+.botao{
+    padding: 10px 50px;
+    background-color: #2c226f;
+    color:#f8e42c;
+    border-radius: 120px;
+    position: relative;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
+
+.botao:hover{
+    background-color: #f8e42c;
+    color: #2c226f;
+    text-shadow: rgb(255, 253, 253) 0.1em 0.1em 0.2em;
 }
 
 body{
